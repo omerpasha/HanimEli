@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/listView67"
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+
+        ></ListView>
+
+    <TextView
+        android:id="@+id/sepet_toplam_tutar_tv2"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:drawableRight="@drawable/ic_baseline_payment_24"
+        android:fontFamily="sans-serif-medium"
+        android:text="Toplam Kazanç :"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    <TextView
+        android:id="@+id/sirketin_kestigi_tv"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:drawableRight="@drawable/ic_baseline_payment_24"
+        android:fontFamily="sans-serif-medium"
+        android:text="Sirket Kesintisi :"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/net_tv"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:drawableRight="@drawable/ic_baseline_payment_24"
+        android:fontFamily="sans-serif-medium"
+        android:text="Net :"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+</LinearLayout>

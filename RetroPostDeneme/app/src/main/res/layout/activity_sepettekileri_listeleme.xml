@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/listView3"
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+
+        ></ListView>
+
+    <TextView
+        android:id="@+id/sepet_toplam_tutar_tv"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:drawableRight="@drawable/ic_baseline_payment_24"
+        android:fontFamily="sans-serif-medium"
+        android:text="Toplam Tutar :"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <Button
+        android:id="@+id/sepet_onay_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_shopping_basket_24"
+        android:drawableRight="@drawable/ic_baseline_check_24"
+        android:text="Sepeti Onayla" />
+
+
+</LinearLayout>
